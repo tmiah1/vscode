@@ -17,12 +17,41 @@ p {
     font-size: 16px;
 }
 
-/*
+li {
+    list-style-type: none;
+}
 
-NAVIAGTION BAR
-
-*/
+/* NAVIGATION BAR */
 
 nav {
-    height: ;
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link-list {
+    display: flex;
+}
+
+.nav__link--anchor {
+    margin: 0 auto;
+    color: #242424;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav__link--anchor-primary {
+    background-color: #6030b1;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: all 300ms ease;
+}
+
+.nav__link--anchor-primary:hover {
+    background-color: #5d3eff;
 }
