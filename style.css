@@ -169,7 +169,7 @@ nav {
 .language__img {
     width: 100%;
     max-width: 100px;
-    
+    transition: all 300ms ease;
 }
 
 .language__img:hover {
